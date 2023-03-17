@@ -1,0 +1,24 @@
+#endif
+
+
+#ifndef NAMES_ONLY
+#undef AUTOGENERATE_NAME
+#undef AUTOGENERATE_FUNCTION
+#endif
+
+#if SUPPORTS_PRAGMA_PACK
+#pragma pack (pop)
+#endif
+
+
+#ifdef NATIVE_DEFS_ONLY
+
+#define AUTO_INITIALIZE_REGISTRANTS_KFXGAME \
+
+#endif // NATIVE_DEFS_ONLY
+
+#ifdef NATIVES_ONLY
+#endif // NATIVES_ONLY
+
+#ifdef VERIFY_CLASS_SIZES
+#endif // VERIFY_CLASS_SIZES
